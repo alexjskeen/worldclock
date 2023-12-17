@@ -7,8 +7,13 @@
         {
             "type": "chrome",
             "request": "launch",
-            "name": "Open portfolio project.html",
-            "file": "c:\\Users\\alexa\\Documents\\New folder\\New folder\\portfolio project.html"
+            "name": "Brave",
+            "userDataDir": false,
+            "webRoot": "${workspaceFolder}",
+            "url": "http://localhost:4200/*",
+            "port": 9222,
+            "runtimeExecutable": "C:\\Program Files\\BraveSoftware\\Brave-Browser\\Application\\brave.exe",
+            "runtimeArgs": [ "--remote-debugging-port=9222" ]
         }
     ]
 }
