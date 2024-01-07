@@ -1,8 +1,8 @@
 .comic{
     font-family:"Comic Sans MS";
     color:#007ba7;
-}
-.center {
+    background-color: rgb(102, 19, 19);
     text-align: center;
-    border: 3px solid rgb(96, 44, 117);
+    border: 3px solid rgb(104, 49, 126);
   }
+  
